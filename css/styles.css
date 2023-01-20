@@ -34,7 +34,7 @@ body {
 	padding: 1% 7.5% 1% 7.5%;
 	/*background-size: cover; */
 	/*background-color: #a6cee3;*/
-	color: #1f78b4;
+	color: #4cf210;
 	left: 0;
     overflow: hidden;
     right: 0;
@@ -56,7 +56,7 @@ body {
 }
 
 #top_row nav a.selected {
-	color: #de2d26;
+	color: #26de2f;
 }
 
 #top_row nav a:hover{
@@ -78,7 +78,7 @@ body {
 	margin: 0% auto;
 	margin-top: 0%;
 	background-size: cover;
-	background-color: #a6cee3;
+	background-color: #222424;
 }
 
 /* Everything under top row */
