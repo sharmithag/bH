@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond&display=swap');
+
+/* When there is more text than available, the page scrolls down */
+html {
+	overflow-y: scroll;
+}
+
+#profile_picture {    
+    display: inline;
+    height: auto;
+    width: 20%;
+    border-radius: 3%;
+}
+
+body {
+	font-family: "Crimson Text", serif;
+	font-size: 150%;
+	line-height: 1.7em;
+	color: #000000;
+	margin: 0%;
+	text-align: justify;
+}
+/* 
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+} */
+
+/***************************** TOP ROW *****************************/
+/* Includes Name, University/Job Position, Navigation Bar*/
+#top_row{
+	padding: 1% 7.5% 1% 7.5%;
+	/*background-size: cover; */
+	/*background-color: #a6cee3;*/
+	color: #1f78b4;
+	left: 0;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+}
+
+#top_row nav {
+	float: right;
+}
+
+#top_row nav a {
+	text-decoration: none;
+	font-size: 1.05em;
+	font-weight: 400;
+	padding: 15px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	color: #000000;
+}
+
+#top_row nav a.selected {
+	color: #de2d26;
+}
+
+#top_row nav a:hover{
+	/*color: #D94443;*/
+	text-decoration: underline;
+}
+
+#top_row h3 {
+	font-size: 1.125em;
+	font-weight: 200;
+}
+/*******************************************************************/
+
+/**************************** CONTAINER ****************************/
+
+/* Everything*/
+#everything {
+	width: 100%;
+	margin: 0% auto;
+	margin-top: 0%;
+	background-size: cover;
+	background-color: #a6cee3;
+}
+
+/* Everything under top row */
+#container {
+	width: 85%;
+	margin: 8% auto;
+	margin-top: 0%;
+}
+/*******************************************************************/
+
+/**************************** CONTENT ******************************/
+/* Everything under top row but above footer */
+#content {
+	float: middle;
+	margin: 0;
+	padding-top: 1%;
+	line-height: 110%;
+	clear: both;
+	width: 100%;
+}
+
+/* Referring specifically to header 3 (University/Job Position) in content */
+#content img {
+	float: left;
+	margin: 1em;
+}
+/*******************************************************************/
+
+
+/**************************** PROJECTS ******************************/
+.projects {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+}
+
+.project {
+	color: gray;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid; */
+	/* border-color: #000000; */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 0.2rem;
+}
+
+.project h4 {
+	color: #000000;
+	margin-bottom: 1px;
+	margin-top: 0;
+}
+
+.project img {
+	/* border: 2px solid; */
+	/* border-color: #ff0000; */
+	width: 90%;
+}
+
+#IMG {
+	display: flex;
+	justify-content: center;
+	height: 80%;
+}
+
+/*******************************************************************/
+
+
+/**************************** FOOTER *******************************/
+/* Footer */
+footer {
+	clear: both;
+	margin: 0;
+	padding: 2% 0% 2% 0%;
+	color: #333333;
+	font-variant: small-caps;
+	font-size: .813em;
+	text-align: center;
+}
+
+/* Text in Footer */
+footer a {
+	padding-right: 1%;
+	padding-left: 1%;
+}
+/*******************************************************************/
+
+/************************ MOBILE RESPONSIVENESS ********************/
+@media only screen and (max-width: 660px) {
+	#top_row {
+		text-align: center;
+	}
+	#top_row nav {
+		float: none;
+	}
+	#top_row img {
+		max-width: 100%; 
+		display: center-block;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 483px) {
+	#content img[src="images/photo.png"] {
+		width: 90%;
+		height: auto;
+		float: none;
+	}
+}
+
+/*******************************************************************/
+
+/* Adds border on right for tabs in navigation bar and footer */
+nav a, footer a { 
+	font-family: "Crimson Text", serif;
+	border-right: none; /*1px solid #000000; */
+}
+
+/* Removes right border for tabs linking to the given pages */
+a[href="http://umd.edu"] {
+	border-right: none;
+}
+
+a[href="contact.html"] { 
+	border-right: none; 
+}
+
+/* Color for links */
+a:link, a:visited {
+	color: #1f78b4;
+	text-decoration: none;
+}
+
+/* Underlines the link that is being hovered over */
+a:hover {
+	text-decoration: underline;
+}
+
+a[href="images/photo.png"] {
+	float: left;
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
