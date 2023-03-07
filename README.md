@@ -1,3 +1,3 @@
-# Bot_Head
+# botHead
 Welcome to my portfolio!
-[Bot_Head](https://sharmithag.github.io/bH/)
+[botHead](https://sharmithag.github.io/bH/)
