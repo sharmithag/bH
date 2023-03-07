@@ -20,17 +20,17 @@ body {
 	margin: 0%;
 	text-align: justify;
 }
-/* 
+
 .about {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-} */
+}
 
 /***************************** TOP ROW *****************************/
 /* Includes Name, University/Job Position, Navigation Bar*/
 #top_row{
-	padding: 1% 7.5% 1% 7.5%;
+	padding: 1% 6% 1% 6%;
 	/*background-size: cover; */
 	/*background-color: #a6cee3;*/
 	color: #391f98ee;
