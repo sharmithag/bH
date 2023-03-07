@@ -24,7 +24,7 @@ $(function() {
 	$(window).scroll(function() {
 	  var scroll = $(window).scrollTop();
   
-	  if (scroll >= 200) {
+	  if (scroll >= 50) {
 		text.removeClass("hidden");
 	  } else {
 		text.addClass("hidden");
