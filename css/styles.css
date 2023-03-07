@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif');
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
 
 /* When there is more text than available, the page scrolls down */
 html {
@@ -14,7 +13,7 @@ html {
 }
 
 body {
-	font-family: "Crimson Text", serif;
+	font-family: 'Shantell Sans', cursive;
 	font-size: 150%;
 	line-height: 1.7em;
 	color: #000000;
@@ -34,7 +33,7 @@ body {
 	padding: 1% 7.5% 1% 7.5%;
 	/*background-size: cover; */
 	/*background-color: #a6cee3;*/
-	color: #4cf210;
+	color: #391f98ee;
 	left: 0;
     overflow: hidden;
     right: 0;
@@ -56,7 +55,7 @@ body {
 }
 
 #top_row nav a.selected {
-	color: #26de2f;
+	color: #973671;
 }
 
 #top_row nav a:hover{
