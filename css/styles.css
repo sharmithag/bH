@@ -45,7 +45,7 @@ body {
 	float: left;
 	font-weight: 700;
 	font-size: 2em;
-	color: #fff;
+	color: #1b1548;
 	opacity: 1;
 	transition: all 0.5s ease-in-out;
 	max-width: 2em;
@@ -58,15 +58,15 @@ body {
   }
   
   .text.hidden li.ghost {
-	opacity: 0;
+	opacity: 1;
 	max-width: 0;
   }
   
-  #top_row{
+  /* #top_row{
 	padding: 1% 6% 1% 6%;
 	/*background-size: cover; */
 	/*background-color: #a6cee3;*/
-	color: #391f98ee;
+	/* color: #15154a;
 	left: 0;
     overflow: hidden;
     right: 0;
@@ -75,7 +75,7 @@ body {
 
 #top_row nav {
 	float: right;
-}
+} */ */
 
 #top_row nav a {
 	text-decoration: none;
@@ -84,7 +84,7 @@ body {
 	padding: 15px;
 	padding-top: 0%;
 	padding-bottom: 0%;
-	color: #000000;
+	color: #15154a;
 }
 
 #top_row nav a.selected {
