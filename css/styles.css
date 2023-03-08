@@ -14,7 +14,7 @@ html {
 
 body {
 	font-family: 'Shantell Sans', cursive;
-	font-size: 120%;
+	font-size: 100%;
 	line-height: 1.7em;
 	color: #000000;
 	margin: 0%;
@@ -28,7 +28,6 @@ body {
 }
 
 /***************************** TOP ROW *****************************/
-/* Includes Name, University/Job Position, Navigation Bar*/
 
   .text {
 	position: fixed;
@@ -45,9 +44,9 @@ body {
 	float: left;
 	font-weight: 700;
 	font-size: 2em;
-	color: #1b1548;
-	opacity: 1;
-	transition: all 0.5s ease-in-out;
+	color: #30175a;
+	opacity: 0;
+	transition: all 1s ease-in-out;
 	max-width: 2em;
   }
   .text.hidden li.spaced {
@@ -62,19 +61,19 @@ body {
 	max-width: 0;
   }
   
-  /* #top_row{
+  #top_row{
 	padding: 1% 6% 1% 6%;
-	/*background-size: cover; */
-	/*background-color: #a6cee3;*/
-	/* color: #15154a;
+	background-size: cover;
+	background-color: #0a3953;
+	color: #15154a;
 	left: 0;
     overflow: hidden;
     right: 0;
     top: 0;
-}*/
+}
 
 #top_row nav {
-	float: right;
+	float: center;
 } 
 
 #top_row nav a {
