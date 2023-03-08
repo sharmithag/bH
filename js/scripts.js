@@ -24,9 +24,11 @@ $(function() {
 	$(window).scroll(function() {
 	  var scroll = $(window).scrollTop();
   
-	  if (scroll >= 5) {
+	  if (scroll >= 10) {
 		text.removeClass("hidden");
-	  } 
+	  } else {
+		text.addClass("hidden");
+	  }
 	});
   });
   

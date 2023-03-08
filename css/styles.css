@@ -14,7 +14,7 @@ html {
 
 body {
 	font-family: 'Shantell Sans', cursive;
-	font-size: 150%;
+	font-size: 120%;
 	line-height: 1.7em;
 	color: #000000;
 	margin: 0%;
@@ -71,18 +71,18 @@ body {
     overflow: hidden;
     right: 0;
     top: 0;
-}
+}*/
 
 #top_row nav {
 	float: right;
-} */ */
+} 
 
 #top_row nav a {
 	text-decoration: none;
 	font-size: 1.05em;
 	font-weight: 400;
 	padding: 15px;
-	padding-top: 0%;
+	padding-top: 10%;
 	padding-bottom: 0%;
 	color: #15154a;
 }
@@ -108,7 +108,7 @@ body {
 #everything {
 	width: 100%;
 	margin: 0% auto;
-	margin-top: 0%;
+	margin-top: 10%;
 	background-size: cover;
 	background-color: #222424;
 }
@@ -117,7 +117,7 @@ body {
 #container {
 	width: 85%;
 	margin: 8% auto;
-	margin-top: 0%;
+	margin-top: 10%;
 }
 /*******************************************************************/
 
